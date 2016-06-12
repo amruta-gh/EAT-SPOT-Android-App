@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:padding="10dp"
+        android:background="#ffccff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Restaurant"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/restName"
+        android:textColor="#FF212121"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewItemName"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_alignLeft="@+id/logo_Image"
+        android:layout_alignStart="@+id/logo_Image"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/restDesc"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewItemPrice"
+        android:layout_below="@+id/restName"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_toEndOf="@+id/linearLayout"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoImage"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_toEndOf="@+id/linearLayout"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/next"
+        android:layout_marginRight="10dip"
+        android:layout_gravity="right" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/linearLayout">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txt_message"
+        android:text="Menu List:"
+        android:textSize="18dp"
+        android:textColor="#FF212121"
+        android:background="#4CAF50"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/menu_item_list"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/txt_message"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:text="Add Item"
+        android:textSize="25sp"
+        style="@style/btn_white_large"
+        android:layout_width="209dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

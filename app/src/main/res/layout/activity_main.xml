@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".mainscreen.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="60dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="60dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/image_login"
+                android:src="@drawable/elephant"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="CSUF Eat-Spot"
+                android:id="@+id/textView1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#fb020000"
+                android:textStyle="bold"
+                android:focusableInTouchMode="false"
+                android:layout_weight="0.25"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="275dp"
+                android:layout_height="65dp"
+                android:drawableLeft="@drawable/ic_username"
+                style="@style/editext_graybg"
+                android:hint="User Name">
+            </EditText>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="275dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="8dp"
+                style="@style/editext_graybg"
+                android:drawableLeft="@drawable/ic_pwd"
+                android:inputType="textPassword"
+                android:hint="Password">
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="166dp"
+                    android:layout_height="70dp"
+                    android:text="LOGIN"
+                    style="@style/btn_white_large"
+                    android:onClick="callLoginScreen"/>
+
+                <Button
+                    android:id="@+id/btnReg"
+                    android:layout_width="166dp"
+                    android:layout_height="70dp"
+                    android:text="REGISTER"
+                    style="@style/btn_white_large"
+                    android:onClick="callRegisterScreen"
+                    android:layout_marginLeft="@dimen/pad_10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>

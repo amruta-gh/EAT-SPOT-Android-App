@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_restaurants"
+            android:icon="@drawable/restaurants"
+            android:title="Restaurants" />
+        <item
+            android:id="@+id/nav_locations"
+            android:icon="@drawable/locations"
+            android:title="Locations" />
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/about"
+            android:title="Admin" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
