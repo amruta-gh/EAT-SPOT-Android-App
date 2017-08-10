@@ -22,7 +22,8 @@
 # Screenshots: 
 The screen shots are from inital stage of the app
 
-
+![login- changed](https://user-images.githubusercontent.com/19851044/29195396-2c9d1b8a-7de3-11e7-9b2d-c3c674562b3c.jpg)
+![navigation drawer activity - changed](https://user-images.githubusercontent.com/19851044/29195399-2f800ac4-7de3-11e7-87a6-29ecc9bec070.jpg)
 
 
 -------------------------------------
