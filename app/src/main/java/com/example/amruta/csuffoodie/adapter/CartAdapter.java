@@ -24,6 +24,7 @@ import java.util.List;
  * Created by amruta on 4/20/2016.
  */
 public class CartAdapter extends BaseAdapter{
+    private static final String LOG_TAG = CartAdapter.class.getSimpleName();
     Context context;
     List<MenuItem> cartItems;
     DatabaseHandler db;
