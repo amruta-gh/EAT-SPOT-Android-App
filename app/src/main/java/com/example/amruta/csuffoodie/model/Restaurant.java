@@ -1,5 +1,5 @@
 package com.example.amruta.csuffoodie.model;
-
+//Restaurant information 
 public class Restaurant {
         /*
     CREATE TABLE "Restaurant" (
