@@ -14,6 +14,7 @@ import com.example.amruta.csuffoodie.helper.DatabaseHandler;
  * Created by amruta on 4/23/2016.
  */
 public class Registration extends Activity {
+    private static final String LOG_TAG = Registration.class.getSimpleName();
     EditText editUserName,editPassword,editEmailId,editPhoneNo;
     Button btnReg;
     DatabaseHandler myDb;
