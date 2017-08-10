@@ -20,6 +20,7 @@ import java.util.List;
  * Created by amruta on 4/20/2016.
  */
 public class RestaurantAdapter extends BaseAdapter {
+    private static final String LOG_TAG = RestaurantAdapter.class.getSimpleName();
     Context context;
     List<Restaurant> rowItems;
 
