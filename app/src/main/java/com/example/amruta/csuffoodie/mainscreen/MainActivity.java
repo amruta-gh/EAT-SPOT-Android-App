@@ -17,7 +17,10 @@ import android.widget.Toast;
 
 import com.example.amruta.csuffoodie.R;
 import com.example.amruta.csuffoodie.helper.DatabaseHandler;
-
+/**
+* MainActivity: 
+* From MainActivity to Login and Register activity.
+*/
 public class MainActivity extends AppCompatActivity {
 
     EditText userName, password;
