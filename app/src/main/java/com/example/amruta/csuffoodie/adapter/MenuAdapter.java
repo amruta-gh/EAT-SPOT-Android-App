@@ -24,6 +24,7 @@ import java.util.List;
  * Created by amruta on 4/20/2016.
  */
 public class MenuAdapter extends BaseAdapter{
+    private static final String LOG_TAG = MenuAdpater.class.getSimpleName();
     Context context;
     List<MenuItem> menuItems;
     DatabaseHandler db;
