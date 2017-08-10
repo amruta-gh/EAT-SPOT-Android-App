@@ -33,6 +33,8 @@ public class MenuAdapterRest
         extends BaseAdapter
         //implements MenuFragment.CartCommunicator
 {
+
+    private static final String LOG_TAG = MenuAdapterRest.class.getSimpleName();
     Context context;
     List<MenuItem> menuItems;
     DatabaseHandler db;
