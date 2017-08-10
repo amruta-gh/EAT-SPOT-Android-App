@@ -24,6 +24,9 @@ The screen shots are from inital stage of the app
 
 ![login- changed](https://user-images.githubusercontent.com/19851044/29195396-2c9d1b8a-7de3-11e7-9b2d-c3c674562b3c.jpg)
 ![navigation drawer activity - changed](https://user-images.githubusercontent.com/19851044/29195399-2f800ac4-7de3-11e7-87a6-29ecc9bec070.jpg)
+![item selected to move to cart](https://user-images.githubusercontent.com/19851044/29195545-ec216bbe-7de3-11e7-9eb2-1607ebe3f388.jpg)
+![item in cart](https://user-images.githubusercontent.com/19851044/29195546-ed3fad4e-7de3-11e7-9cc8-e4086377c252.jpg)
+
 
 
 -------------------------------------
